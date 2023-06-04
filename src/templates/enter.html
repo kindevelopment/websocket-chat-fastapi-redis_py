@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+            let name_room = window.prompt("Please enter your room name")
+            const encodedValue = encodeURIComponent(name_room);
+            const url = `http://127.0.0.1:8000/${encodedValue}`;
+            window.location.href = url;
+</script>
+</body>
+</html>
