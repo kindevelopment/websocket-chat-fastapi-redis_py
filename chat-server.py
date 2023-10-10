@@ -1,5 +1,3 @@
-import json
-
 import redis
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Depends, Form, HTTPException
 from fastapi.templating import Jinja2Templates
