@@ -8,12 +8,17 @@ Alimov Said
 ```
 git clone https://gitlab.com/DJWOMS/junov_net.gi
 ```
+
 ## Запуск проекта
-1) Запускаем проект коммандой:
+1) Создаем окружение и инсталируем зависимости
+```
+pip install -r requirements.txt 
+```
+2) Запускаем проект коммандой:
 ```
 uvicorn chat-server:app --reload
 ```
-2) Переходим по ссылке: http://127.0.0.1:8000
+3) Переходим по ссылке: http://127.0.0.1:8000
 ## Folders
 - templates - Папка с шаблонами для работы фронта
 - requirements - Файл с зависимостями
